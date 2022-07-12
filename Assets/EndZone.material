@@ -1,0 +1,23 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "propertyValues": {
+        "baseColor.color": [
+            0.9183642268180847,
+            0.8781567215919495,
+            0.11429007351398468,
+            1.0
+        ],
+        "emissive.color": [
+            0.45453575253486633,
+            0.5510185360908508,
+            0.06857404112815857,
+            1.0
+        ],
+        "emissive.enable": true,
+        "emissive.intensity": 4.559999942779541,
+        "opacity.alphaAffectsSpecular": 0.8399999737739563,
+        "opacity.factor": 0.6200000047683716,
+        "opacity.mode": "TintedTransparent"
+    }
+}

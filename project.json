@@ -1,0 +1,20 @@
+{
+    "project_name": "Ballorama",
+    "project_id": "{1597b91a-4b07-4441-a888-49ecc56811bf}",
+    "origin": "The primary repo for Ballorama goes here: i.e. http://www.mydomain.com",
+    "license": "What license Ballorama uses goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT etc.",
+    "display_name": "Ballorama",
+    "summary": "A short description of Ballorama.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "Ballorama"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de-sdk",
+    "external_subdirectories": [
+        "Gem"
+    ],
+    "restricted": "Ballorama"
+}
