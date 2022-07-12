@@ -22,10 +22,10 @@
                     "Entity_[1155164325235]",
                     "Entity_[1180934129011]",
                     "Entity_[1163754259827]",
-                    "Entity_[72349037224668]",
                     "Entity_[81153720181468]",
                     "Entity_[61480948882274]",
-                    "Entity_[61480948882274]"
+                    "Entity_[7817447720495]",
+                    "Entity_[8504642487855]"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -159,7 +159,7 @@
                                     },
                                     "isNullPointer": false,
                                     "$type": "EntityId",
-                                    "value": "Entity_[72349037224668]"
+                                    "value": "Entity_[7817447720495]"
                                 },
                                 "InputControlVisibility": {
                                     "Value": 850104567
@@ -187,7 +187,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 55.0,
-                            "EditorEntityId": 474954367763295353
+                            "EditorEntityId": 4928013650072840076
                         }
                     }
                 },
@@ -2196,7 +2196,7 @@
                     "Transform Data": {
                         "Translate": [
                             -0.9981814622879028,
-                            38.56528091430664,
+                            31.663829803466797,
                             1.7017765045166016
                         ]
                     }
@@ -2801,7 +2801,7 @@
                         "propertyVisibilityFlags": 235
                     },
                     "MeshData": {
-                        "CookedData": "TlhTAU1FU0gPAAAAAAAAAAYAAAAIAAAADAAAAAAAAL+1nIDAgCAovdOGKUC1nIDAgCAovdOGKUBnMi9AJNIBQAAAAL9nMi9AJNIBQAAAAL+UkzFAAAAAv9OGKUCUkzFAAAAAv9OGKUC1nIDAAAAAvwAAAL+1nIDAAAAAvwQGBwQFBgcGAQcBAAQAAwQHAAACAwABAgYCAQYFAgUEAwUDAgsAAAADAgQFCwoBAAcGCAlSVFJFAgAAAMUgAL/OoIDAxSAAvwAAAAAEjylAxZsxQFXaAUAAAAAAAACAPwAAgD8AAIA/AACAP/+XSTiJb9k4KOMhOAAAAAAEAAAAAQAAAAEAAAAEAAAAAQAAAAAAAADFIAC/xSAAv6J+KUDFIAC/zqCAwM6ggMDOoIDANiovQMUgAL/FIAC/xSAAv8UgAL8EjylABI8pQASPKUAEjylAxZsxQMWbMUDFmzFAxZsxQDYUJr1V2gFAVdoBQFXaAUAHAAAAhwAAAAMBAABDAQAAtZyANQAAAL+1nIDAAAAAv9OGKUCUkzFAJNIBQAwAAAAwGBgwMBgwGDAYGDA="
+                        "CookedData": "TlhTAU1FU0gPAAAAAAAAAAYAAAAIAAAADAAAAAAAAL+1nIDAgCAovdOGKUC1nIDAgCAovdOGKUCHtDBAaeGFPwAAAL+HtDBAaeGFPwAAAL+UkzFAAAAAv9OGKUCUkzFAAAAAv9OGKUC1nIDAAAAAvwAAAL+1nIDAAAAAvwcBAAcGAQABAgACAwQGBwQFBgQHAAQAAwYCAQYFAgUEAwUDAgsAAAAFBAABAwIKCwcGCAlSVFJFAgAAAMUgAL/OoIDAxSAAvwAAAAAEjylAxZsxQMvxhT8AAAAAAACAPwAAgD8AAIA/AACAP/+XSTiJb9k49ALGNwAAAAAEAAAAAQAAAAEAAAAEAAAAAQAAAAAAAADFIAC/xSAAv6J+KUDFIAC/zqCAwM6ggMDOoIDAVqwwQMUgAL/FIAC/xSAAv8UgAL8EjylAd77/vgSPKUAEjylAxZsxQMWbMUDFmzFAxZsxQMvxhT/L8YU/y/GFP8vxhT8LAAAAwwAAAAMBAABDAQAAtZyANQAAAL+1nIDAAAAAv9OGKUCUkzFAaeGFPwwAAAAwGBgwMBgYMDAYGDA="
                     }
                 },
                 "Component_[11645304315030244725]": {
@@ -2831,7 +2831,7 @@
                 "Component_[1431804842641969983]": {
                     "$type": "EditorWhiteBoxComponent",
                     "Id": 1431804842641969983,
-                    "WhiteBoxData": "T01UQQgAAAAMAAAAEgAAAAAWAAAAv7WcgMCAICi904YpQLWcgMCAICi904YpQGcyL0Ak0gFAAAAAv2cyL0Ak0gFAAAAAv7WcgMAAAAC/04YpQLWcgMAAAAC/04YpQJSTMUAAAAC/AAAAv5STMUAAAAC/+BYCAQAYAAUEAgAVAQcAAAAGAgEIAwEbAgkFAAEfAwsMBgIeBwgOBQIaBgYKBwIQBQMSBAMUBQQPBwMZBAoWAQQdBQcRBAQBAQUXBAUiAAocAgYhBgkNBQYDAgcgAwgjBwsLBggHAwkTBwoJAAtYDtOGCcC1nJBAAACAPwiCCj/ThgnAZzIPwAiCCj+1nJBAAACAP7WckEDThgnAZzIPwAAAgD9nMg/A04YJwEikw78AAIA/tZyQQEikw79nMg/A04YJwJSTEcAAAIA/AACAP9OGCcC1nJBAAACAP5STEcAAAIA/lJMRwNOGCcC1nJBAAACAP7WckEDThgnAAACAPwAAgD+UkxHAAACAP7WckEDThgnACIIKPwAAgD+1nJBAAACAPwAAgD/ThgnACIIKPwAAgD8AAIA/CIIKP7WckEBIpMO/ZzIPwNOGCcAAAIA/AACAP7WckEBIpMO/ZzIPwAAAgD9IpMO/AACAP5STEcDThgnAAACAPwAAgD9IpMO/AACAP5STEcAIggo/tZyQQOAGCRUbHxkdISPoBgQIDhIWGBwVIBsiHygWAAAAAEPylb6FxnQ/AAAAAEPylb6FxnQ/AAAAgAAAAIAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAgL8AAAAAAAAAgAAAgL8AAAAAAACAPwAAAAAAAAAA//9/PwAAAAAAAAAAAAAAgOr4fz8E53A8AAAAgOr4fz8E53A8AACAvwAAAAAAAAAAAACAvwAAAAAAAAAAwsATdmVydGV4LWhpZGRlbi1wcm9wcwEAAAAAxsANcG9seWdvbi1wcm9wc8QAAAAMAAAABgAAAAIAAAAGAAAABwAAAAUAAAACAAAABAAAAAUAAAAEAAAAAgAAAAQAAAAFAAAACwAAAAIAAAAKAAAACwAAAAMAAAACAAAAAgAAAAMAAAAKAAAAAgAAAAoAAAALAAAAAgAAAAIAAAACAAAAAwAAAAkAAAACAAAACAAAAAkAAAABAAAAAgAAAAAAAAABAAAACAAAAAIAAAAIAAAACQAAAAAAAAACAAAAAAAAAAEAAAAHAAAAAgAAAAYAAAAHAAAAHAA=",
+                    "WhiteBoxData": "T01UQQgAAAAMAAAAEgAAAAAWAAAAv7WcgMCAICi904YpQLWcgMCAICi904YpQIe0MEBp4YU/AAAAv4e0MEBp4YU/AAAAv7WcgMAAAAC/04YpQLWcgMAAAAC/04YpQJSTMUAAAAC/AAAAv5STMUAAAAC/+BYCAQAYAAUEAgAVAQcAAAAGAgEIAwEbAgkFAAEfAwsMBgIeBwgOBQIaBgYKBwIQBQMSBAMUBQQPBwMZBAoWAQQdBQcRBAQBAQUXBAUiAAocAgYhBgkNBQYDAgcgAwgjBwsLBggHAwkTBwoJAAtYDtOGCcC1nJBAAACAPwiCCj/ThgnAh7QQwAiCCj+1nJBAAACAP7WckEDThgnAh7QQwAAAgD+HtBDA04YJwNLCC78AAIA/tZyQQNLCC7+HtBDA04YJwJSTEcAAAIA/AACAP9OGCcC1nJBAAACAP5STEcAAAIA/lJMRwNOGCcC1nJBAAACAP7WckEDThgnAAACAPwAAgD+UkxHAAACAP7WckEDThgnACIIKPwAAgD+1nJBAAACAPwAAgD/ThgnACIIKPwAAgD8AAIA/CIIKP7WckEDSwgu/h7QQwNOGCcAAAIA/AACAP7WckEDSwgu/h7QQwAAAgD/Swgu/AACAP5STEcDThgnAAACAPwAAgD/Swgu/AACAP5STEcAIggo/tZyQQOAGCRUbHxkdISPoBgQIDhIWGBwVIBsiHygWAAAAANUYIr6wxXw/AAAAANUYIr6wxXw/AAAAgAAAAIAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAgL8AAAAAAAAAgAAAgL8AAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAAAAgHf9fz+jRhA8AAAAgHf9fz+jRhA8AACAvwAAAAAAAAAA//9/vwAAAAAAAAAAwsATdmVydGV4LWhpZGRlbi1wcm9wcwEAAAAAxsANcG9seWdvbi1wcm9wc8QAAAAMAAAAAAAAAAIAAAAAAAAAAQAAAAcAAAACAAAABgAAAAcAAAABAAAAAgAAAAAAAAABAAAACAAAAAIAAAAIAAAACQAAAAIAAAACAAAAAgAAAAMAAAAJAAAAAgAAAAgAAAAJAAAAAwAAAAIAAAACAAAAAwAAAAoAAAACAAAACgAAAAsAAAAEAAAAAgAAAAQAAAAFAAAACwAAAAIAAAAKAAAACwAAAAUAAAACAAAABAAAAAUAAAAGAAAAAgAAAAYAAAAHAAAAHAA=",
                     "RenderData": {
                         "Faces": [
                             {
@@ -2860,18 +2860,18 @@
                                 "Vertex3": {
                                     "Position": [
                                         2.6488540172576904,
-                                        2.7374513149261475,
-                                        2.0284509658813477
+                                        2.7610185146331787,
+                                        1.0459414720535278
                                     ],
                                     "UV": [
                                         -2.1488540172576904,
-                                        -2.2374513149261475
+                                        -2.2610185146331787
                                     ]
                                 },
                                 "Normal": [
                                     0.0,
-                                    -0.2928639352321625,
-                                    0.9561541676521301
+                                    -0.1582978516817093,
+                                    0.987391471862793
                                 ]
                             },
                             {
@@ -2889,29 +2889,29 @@
                                 "Vertex2": {
                                     "Position": [
                                         2.6488540172576904,
-                                        2.7374513149261475,
-                                        2.0284509658813477
+                                        2.7610185146331787,
+                                        1.0459414720535278
                                     ],
                                     "UV": [
                                         -2.1488540172576904,
-                                        -2.2374513149261475
+                                        -2.2610185146331787
                                     ]
                                 },
                                 "Vertex3": {
                                     "Position": [
                                         -0.5,
-                                        2.7374513149261475,
-                                        2.0284509658813477
+                                        2.7610185146331787,
+                                        1.0459414720535278
                                     ],
                                     "UV": [
                                         1.0,
-                                        -2.2374513149261475
+                                        -2.2610185146331787
                                     ]
                                 },
                                 "Normal": [
                                     0.0,
-                                    -0.2928639352321625,
-                                    0.9561541676521301
+                                    -0.1582978516817093,
+                                    0.987391471862793
                                 ]
                             },
                             {
@@ -3100,12 +3100,12 @@
                                 "Vertex3": {
                                     "Position": [
                                         2.6488540172576904,
-                                        2.7374513149261475,
-                                        2.0284509658813477
+                                        2.7610185146331787,
+                                        1.0459414720535278
                                     ],
                                     "UV": [
-                                        -1.5284509658813477,
-                                        -2.2374513149261475
+                                        -0.5459414720535278,
+                                        -2.2610185146331787
                                     ]
                                 },
                                 "Normal": [
@@ -3129,12 +3129,12 @@
                                 "Vertex2": {
                                     "Position": [
                                         2.6488540172576904,
-                                        2.7374513149261475,
-                                        2.0284509658813477
+                                        2.7610185146331787,
+                                        1.0459414720535278
                                     ],
                                     "UV": [
-                                        -1.5284509658813477,
-                                        -2.2374513149261475
+                                        -0.5459414720535278,
+                                        -2.2610185146331787
                                     ]
                                 },
                                 "Vertex3": {
@@ -3149,7 +3149,7 @@
                                     ]
                                 },
                                 "Normal": [
-                                    0.9999999403953552,
+                                    1.0,
                                     0.0,
                                     0.0
                                 ]
@@ -3180,18 +3180,18 @@
                                 "Vertex3": {
                                     "Position": [
                                         -0.5,
-                                        2.7374513149261475,
-                                        2.0284509658813477
+                                        2.7610185146331787,
+                                        1.0459414720535278
                                     ],
                                     "UV": [
                                         1.0,
-                                        -1.5284509658813477
+                                        -0.5459414720535278
                                     ]
                                 },
                                 "Normal": [
                                     0.0,
-                                    0.9998918771743774,
-                                    0.01470351591706276
+                                    0.9999613165855408,
+                                    0.008805903606116772
                                 ]
                             },
                             {
@@ -3209,29 +3209,29 @@
                                 "Vertex2": {
                                     "Position": [
                                         -0.5,
-                                        2.7374513149261475,
-                                        2.0284509658813477
+                                        2.7610185146331787,
+                                        1.0459414720535278
                                     ],
                                     "UV": [
                                         1.0,
-                                        -1.5284509658813477
+                                        -0.5459414720535278
                                     ]
                                 },
                                 "Vertex3": {
                                     "Position": [
                                         2.6488540172576904,
-                                        2.7374513149261475,
-                                        2.0284509658813477
+                                        2.7610185146331787,
+                                        1.0459414720535278
                                     ],
                                     "UV": [
                                         -2.1488540172576904,
-                                        -1.5284509658813477
+                                        -0.5459414720535278
                                     ]
                                 },
                                 "Normal": [
                                     -0.0,
-                                    0.9998918771743774,
-                                    0.01470351591706276
+                                    0.9999613165855408,
+                                    0.008805903606116772
                                 ]
                             },
                             {
@@ -3300,16 +3300,16 @@
                                 "Vertex3": {
                                     "Position": [
                                         -0.5,
-                                        2.7374513149261475,
-                                        2.0284509658813477
+                                        2.7610185146331787,
+                                        1.0459414720535278
                                     ],
                                     "UV": [
-                                        -1.5284509658813477,
-                                        -2.2374513149261475
+                                        -0.5459414720535278,
+                                        -2.2610185146331787
                                     ]
                                 },
                                 "Normal": [
-                                    -1.0,
+                                    -0.9999999403953552,
                                     0.0,
                                     0.0
                                 ]
@@ -3380,7 +3380,7 @@
                     "Transform Data": {
                         "Translate": [
                             0.26627302169799805,
-                            39.59765625,
+                            32.696205139160156,
                             -1.358405590057373
                         ]
                     }
@@ -3911,13 +3911,38 @@
                 }
             }
         },
-        "Entity_[72349037224668]": {
-            "Id": "Entity_[72349037224668]",
+        "Entity_[7817447720495]": {
+            "Id": "Entity_[7817447720495]",
             "Name": "Ball",
             "Components": {
                 "Component_[12211016660796209533]": {
                     "$type": "EditorInspectorComponent",
-                    "Id": 12211016660796209533
+                    "Id": 12211016660796209533,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 7416127175483900156
+                        },
+                        {
+                            "ComponentId": 3873493776369345695,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 3837554165328877143,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 3797443932717465202,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 4133188831449154810,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 3693789661888196310,
+                            "SortIndex": 5
+                        }
+                    ]
                 },
                 "Component_[15049563373555033457]": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -4096,6 +4121,118 @@
                             1.7402052879333496
                         ]
                     }
+                }
+            }
+        },
+        "Entity_[8504642487855]": {
+            "Id": "Entity_[8504642487855]",
+            "Name": "Gem",
+            "Components": {
+                "Component_[13271189431201839304]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13271189431201839304
+                },
+                "Component_[13300816605731910289]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13300816605731910289
+                },
+                "Component_[13731407191200741293]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 13731407191200741293,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Scale": [
+                                0.20000000298023224,
+                                0.20000000298023224,
+                                0.20000000298023224
+                            ]
+                        }
+                    }
+                },
+                "Component_[13921115874054571968]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13921115874054571968
+                },
+                "Component_[14841964370957517471]": {
+                    "$type": "SelectionComponent",
+                    "Id": 14841964370957517471
+                },
+                "Component_[15976147845589586893]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15976147845589586893,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -1.4007294178009033,
+                            0.15460282564163208,
+                            1.3209490776062012
+                        ],
+                        "Rotate": [
+                            45.0,
+                            0.0,
+                            0.0
+                        ],
+                        "UniformScale": 0.20000000298023224
+                    }
+                },
+                "Component_[16639018465837009691]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16639018465837009691
+                },
+                "Component_[16814665086898569202]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16814665086898569202
+                },
+                "Component_[2641735205459912308]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 2641735205459912308,
+                    "m_name": "GemInteraction.scriptcanvas",
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "id": "{24D1B43A-1865-5487-8967-3FDF8C780FC9}",
+                            "path": "Users/carlmina/O3DE/Projects/Ballorama/scriptcanvas/GemInteraction.scriptcanvas"
+                        }
+                    },
+                    "sourceHandle": {
+                        "id": "{24D1B43A-1865-5487-8967-3FDF8C780FC9}",
+                        "path": "Users/carlmina/O3DE/Projects/Ballorama/scriptcanvas/GemInteraction.scriptcanvas"
+                    }
+                },
+                "Component_[4911883967256169940]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4911883967256169940
+                },
+                "Component_[4995544440345654600]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4995544440345654600
+                },
+                "Component_[7083010370916447485]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 7083010370916447485,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C15CD465-9589-56ED-945F-8416FA4798A3}",
+                                    "subId": 284301017
+                                },
+                                "assetHint": "objects/_primitives/_box_1x1.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[8539017015676330725]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8539017015676330725
                 }
             }
         }
