@@ -22,10 +22,15 @@
                     "Entity_[1155164325235]",
                     "Entity_[1180934129011]",
                     "Entity_[1163754259827]",
+                    "Entity_[1142703656759]",
                     "Entity_[81153720181468]",
                     "Entity_[61480948882274]",
                     "Entity_[7817447720495]",
-                    "Entity_[8504642487855]"
+                    "Entity_[8504642487855]",
+                    "Entity_[61793192636554]",
+                    "Entity_[103278281748618]",
+                    "Entity_[103282576715914]",
+                    "Entity_[103286871683210]"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -60,6 +65,422 @@
         }
     },
     "Entities": {
+        "Entity_[103278281748618]": {
+            "Id": "Entity_[103278281748618]",
+            "Name": "Gem",
+            "Components": {
+                "Component_[13271189431201839304]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13271189431201839304
+                },
+                "Component_[13300816605731910289]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13300816605731910289
+                },
+                "Component_[13731407191200741293]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 13731407191200741293,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Scale": [
+                                0.20000000298023224,
+                                0.20000000298023224,
+                                0.20000000298023224
+                            ]
+                        }
+                    }
+                },
+                "Component_[13921115874054571968]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13921115874054571968
+                },
+                "Component_[14841964370957517471]": {
+                    "$type": "SelectionComponent",
+                    "Id": 14841964370957517471
+                },
+                "Component_[15976147845589586893]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15976147845589586893,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -9.517852783203125,
+                            10.500917434692383,
+                            1.265584945678711
+                        ],
+                        "Rotate": [
+                            45.000003814697266,
+                            0.0,
+                            0.0
+                        ],
+                        "UniformScale": 0.20000000298023224
+                    }
+                },
+                "Component_[16639018465837009691]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16639018465837009691
+                },
+                "Component_[16814665086898569202]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16814665086898569202
+                },
+                "Component_[2641735205459912308]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 2641735205459912308,
+                    "m_name": "GemInteraction.scriptcanvas",
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "id": "{24D1B43A-1865-5487-8967-3FDF8C780FC9}",
+                            "path": "Users/carlmina/O3DE/Projects/Ballorama/scriptcanvas/GemInteraction.scriptcanvas"
+                        }
+                    },
+                    "sourceHandle": {
+                        "id": "{24D1B43A-1865-5487-8967-3FDF8C780FC9}",
+                        "path": "Users/carlmina/O3DE/Projects/Ballorama/scriptcanvas/GemInteraction.scriptcanvas"
+                    }
+                },
+                "Component_[4911883967256169940]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4911883967256169940
+                },
+                "Component_[4995544440345654600]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4995544440345654600
+                },
+                "Component_[7083010370916447485]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 7083010370916447485,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C15CD465-9589-56ED-945F-8416FA4798A3}",
+                                    "subId": 284301017
+                                },
+                                "assetHint": "objects/_primitives/_box_1x1.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[8539017015676330725]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8539017015676330725
+                }
+            }
+        },
+        "Entity_[103282576715914]": {
+            "Id": "Entity_[103282576715914]",
+            "Name": "Gem",
+            "Components": {
+                "Component_[13271189431201839304]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13271189431201839304
+                },
+                "Component_[13300816605731910289]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13300816605731910289
+                },
+                "Component_[13731407191200741293]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 13731407191200741293,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Scale": [
+                                0.20000000298023224,
+                                0.20000000298023224,
+                                0.20000000298023224
+                            ]
+                        }
+                    }
+                },
+                "Component_[13921115874054571968]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13921115874054571968
+                },
+                "Component_[14841964370957517471]": {
+                    "$type": "SelectionComponent",
+                    "Id": 14841964370957517471
+                },
+                "Component_[15976147845589586893]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15976147845589586893,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -1.3983726501464844,
+                            10.500917434692383,
+                            1.265584945678711
+                        ],
+                        "Rotate": [
+                            45.000003814697266,
+                            0.0,
+                            0.0
+                        ],
+                        "UniformScale": 0.20000000298023224
+                    }
+                },
+                "Component_[16639018465837009691]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16639018465837009691
+                },
+                "Component_[16814665086898569202]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16814665086898569202
+                },
+                "Component_[2641735205459912308]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 2641735205459912308,
+                    "m_name": "GemInteraction.scriptcanvas",
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "id": "{24D1B43A-1865-5487-8967-3FDF8C780FC9}",
+                            "path": "Users/carlmina/O3DE/Projects/Ballorama/scriptcanvas/GemInteraction.scriptcanvas"
+                        }
+                    },
+                    "sourceHandle": {
+                        "id": "{24D1B43A-1865-5487-8967-3FDF8C780FC9}",
+                        "path": "Users/carlmina/O3DE/Projects/Ballorama/scriptcanvas/GemInteraction.scriptcanvas"
+                    }
+                },
+                "Component_[4911883967256169940]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4911883967256169940
+                },
+                "Component_[4995544440345654600]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4995544440345654600
+                },
+                "Component_[7083010370916447485]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 7083010370916447485,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C15CD465-9589-56ED-945F-8416FA4798A3}",
+                                    "subId": 284301017
+                                },
+                                "assetHint": "objects/_primitives/_box_1x1.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[8539017015676330725]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8539017015676330725
+                }
+            }
+        },
+        "Entity_[103286871683210]": {
+            "Id": "Entity_[103286871683210]",
+            "Name": "Gem",
+            "Components": {
+                "Component_[13271189431201839304]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13271189431201839304
+                },
+                "Component_[13300816605731910289]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13300816605731910289
+                },
+                "Component_[13731407191200741293]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 13731407191200741293,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Scale": [
+                                0.20000000298023224,
+                                0.20000000298023224,
+                                0.20000000298023224
+                            ]
+                        }
+                    }
+                },
+                "Component_[13921115874054571968]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13921115874054571968
+                },
+                "Component_[14841964370957517471]": {
+                    "$type": "SelectionComponent",
+                    "Id": 14841964370957517471
+                },
+                "Component_[15976147845589586893]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15976147845589586893,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -1.253274917602539,
+                            27.089927673339844,
+                            0.9725720882415771
+                        ],
+                        "Rotate": [
+                            45.000003814697266,
+                            0.0,
+                            0.0
+                        ],
+                        "UniformScale": 0.20000000298023224
+                    }
+                },
+                "Component_[16639018465837009691]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16639018465837009691
+                },
+                "Component_[16814665086898569202]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16814665086898569202
+                },
+                "Component_[2641735205459912308]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 2641735205459912308,
+                    "m_name": "GemInteraction.scriptcanvas",
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "id": "{24D1B43A-1865-5487-8967-3FDF8C780FC9}",
+                            "path": "Users/carlmina/O3DE/Projects/Ballorama/scriptcanvas/GemInteraction.scriptcanvas"
+                        }
+                    },
+                    "sourceHandle": {
+                        "id": "{24D1B43A-1865-5487-8967-3FDF8C780FC9}",
+                        "path": "Users/carlmina/O3DE/Projects/Ballorama/scriptcanvas/GemInteraction.scriptcanvas"
+                    }
+                },
+                "Component_[4911883967256169940]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4911883967256169940
+                },
+                "Component_[4995544440345654600]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4995544440345654600
+                },
+                "Component_[7083010370916447485]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 7083010370916447485,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C15CD465-9589-56ED-945F-8416FA4798A3}",
+                                    "subId": 284301017
+                                },
+                                "assetHint": "objects/_primitives/_box_1x1.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[8539017015676330725]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8539017015676330725
+                }
+            }
+        },
+        "Entity_[1142703656759]": {
+            "Id": "Entity_[1142703656759]",
+            "Name": "GameUI",
+            "Components": {
+                "Component_[13405801905884305821]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13405801905884305821
+                },
+                "Component_[15578236451209532584]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15578236451209532584,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.13390199840068817,
+                            -7.1487579345703125,
+                            3.465794324874878
+                        ]
+                    }
+                },
+                "Component_[16565543285602605610]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16565543285602605610
+                },
+                "Component_[3259192924676914969]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 3259192924676914969,
+                    "m_name": "GameUI.scriptcanvas",
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "id": "{DC7C911F-7C06-586F-8F7D-469C5477654D}",
+                            "path": "Users/carlmina/O3DE/Projects/Ballorama/scriptcanvas/GameUI.scriptcanvas"
+                        }
+                    },
+                    "sourceHandle": {
+                        "id": "{DC7C911F-7C06-586F-8F7D-469C5477654D}",
+                        "path": "Users/carlmina/O3DE/Projects/Ballorama/scriptcanvas/GameUI.scriptcanvas"
+                    }
+                },
+                "Component_[4149349016040082350]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4149349016040082350
+                },
+                "Component_[4572202582508874949]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4572202582508874949
+                },
+                "Component_[5054667797287652751]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5054667797287652751
+                },
+                "Component_[5765762727548820808]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5765762727548820808
+                },
+                "Component_[6155753132785123463]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6155753132785123463
+                },
+                "Component_[8197618035477395937]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8197618035477395937
+                },
+                "Component_[9488274752435500817]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 9488274752435500817,
+                    "m_template": {
+                        "$type": "UiCanvasAssetRefComponent",
+                        "CanvasAssetRef": {
+                            "AssetPath": "assets/gameui.uicanvas"
+                        },
+                        "IsAutoLoad": true
+                    }
+                },
+                "Component_[9546278196468583329]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9546278196468583329
+                }
+            }
+        },
         "Entity_[1155164325235]": {
             "Id": "Entity_[1155164325235]",
             "Name": "Sun",
@@ -187,7 +608,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 55.0,
-                            "EditorEntityId": 4928013650072840076
+                            "EditorEntityId": 1164140641305467948
                         }
                     }
                 },
@@ -2208,6 +2629,118 @@
                 "Component_[9932097921204268321]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 9932097921204268321
+                }
+            }
+        },
+        "Entity_[61793192636554]": {
+            "Id": "Entity_[61793192636554]",
+            "Name": "Gem",
+            "Components": {
+                "Component_[13271189431201839304]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13271189431201839304
+                },
+                "Component_[13300816605731910289]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13300816605731910289
+                },
+                "Component_[13731407191200741293]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 13731407191200741293,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Scale": [
+                                0.20000000298023224,
+                                0.20000000298023224,
+                                0.20000000298023224
+                            ]
+                        }
+                    }
+                },
+                "Component_[13921115874054571968]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13921115874054571968
+                },
+                "Component_[14841964370957517471]": {
+                    "$type": "SelectionComponent",
+                    "Id": 14841964370957517471
+                },
+                "Component_[15976147845589586893]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15976147845589586893,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -9.181737899780273,
+                            0.15460282564163208,
+                            1.3209490776062012
+                        ],
+                        "Rotate": [
+                            45.000003814697266,
+                            0.0,
+                            0.0
+                        ],
+                        "UniformScale": 0.20000000298023224
+                    }
+                },
+                "Component_[16639018465837009691]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16639018465837009691
+                },
+                "Component_[16814665086898569202]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16814665086898569202
+                },
+                "Component_[2641735205459912308]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 2641735205459912308,
+                    "m_name": "GemInteraction.scriptcanvas",
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "id": "{24D1B43A-1865-5487-8967-3FDF8C780FC9}",
+                            "path": "Users/carlmina/O3DE/Projects/Ballorama/scriptcanvas/GemInteraction.scriptcanvas"
+                        }
+                    },
+                    "sourceHandle": {
+                        "id": "{24D1B43A-1865-5487-8967-3FDF8C780FC9}",
+                        "path": "Users/carlmina/O3DE/Projects/Ballorama/scriptcanvas/GemInteraction.scriptcanvas"
+                    }
+                },
+                "Component_[4911883967256169940]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4911883967256169940
+                },
+                "Component_[4995544440345654600]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4995544440345654600
+                },
+                "Component_[7083010370916447485]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 7083010370916447485,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C15CD465-9589-56ED-945F-8416FA4798A3}",
+                                    "subId": 284301017
+                                },
+                                "assetHint": "objects/_primitives/_box_1x1.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[8539017015676330725]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8539017015676330725
                 }
             }
         },
