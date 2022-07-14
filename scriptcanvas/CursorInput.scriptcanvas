@@ -352,8 +352,8 @@
                                         "$type": "SceneComponentSaveData",
                                         "ViewParams": {
                                             "Scale": 0.7080517369441847,
-                                            "AnchorX": -748.5328979492188,
-                                            "AnchorY": -48.01908874511719
+                                            "AnchorX": -1094.552734375,
+                                            "AnchorY": -22.597219467163086
                                         }
                                     }
                                 }
@@ -410,7 +410,7 @@
                                         "$type": "GeometrySaveData",
                                         "Position": [
                                             80.0,
-                                            660.0
+                                            600.0
                                         ]
                                     },
                                     "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {

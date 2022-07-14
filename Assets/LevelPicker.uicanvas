@@ -384,7 +384,7 @@
 										<Class name="bool" field="IsAutoActivationEnabled" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
 										<Class name="AZStd::string" field="HoverStartActionName" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
 										<Class name="AZStd::string" field="HoverEndActionName" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
-										<Class name="AZStd::string" field="PressedActionName" value="Main" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+										<Class name="AZStd::string" field="PressedActionName" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
 										<Class name="AZStd::string" field="ReleasedActionName" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
 									</Class>
 									<Class name="AZStd::string" field="ActionName" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
@@ -414,6 +414,29 @@
 									<Class name="int" field="FillCornerOrigin" value="0" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
 									<Class name="int" field="FillEdgeOrigin" value="0" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
 									<Class name="bool" field="FillClockwise" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+								</Class>
+								<Class name="EditorScriptCanvasComponent" field="element" version="15" type="{C28E2D29-0746-451D-A639-7F113ECF5D72}">
+									<Class name="EditorComponentBase" field="BaseClass1" version="1" type="{D5346BD4-7F20-444E-B370-327ACD03D4A0}">
+										<Class name="AZ::Component" field="BaseClass1" type="{EDFCB2CF-F75D-43BE-B26B-F35821B29247}">
+											<Class name="AZ::u64" field="Id" value="14814082481370090216" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+										</Class>
+									</Class>
+									<Class name="AZStd::string" field="m_name" value="LevelSelect.scriptcanvas" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+									<Class name="BuildVariableOverrides" field="runtimeDataOverrides" version="3" type="{8336D44C-8EDC-4C28-AEB4-3420D5FD5AE2}">
+										<Class name="SourceHandle" field="source" version="1" type="{65855A98-AE2F-427F-BFC8-69D45265E312}">
+											<Class name="AZ::Uuid" field="id" value="{D8DAA684-C94C-51F1-9D46-C70029A1BB6B}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+											<Class name="AZ::IO::Path" field="path" value="Users/carlmina/O3DE/Projects/Ballorama/scriptcanvas/LevelSelect.scriptcanvas" type="{88E0A40F-3085-4CAB-8B11-EF5A2659C71A}"/>
+										</Class>
+										<Class name="AZStd::vector" field="variables" type="{C35B1777-D50B-526C-A435-04BD80FF4312}"/>
+										<Class name="AZStd::vector" field="entityId" type="{24B699CC-A966-5A48-9D87-6460CC374504}"/>
+										<Class name="AZStd::vector" field="overrides" type="{C35B1777-D50B-526C-A435-04BD80FF4312}"/>
+										<Class name="AZStd::vector" field="overridesUnused" type="{C35B1777-D50B-526C-A435-04BD80FF4312}"/>
+										<Class name="AZStd::vector" field="dependencies" type="{FEA20C67-00FA-5AC8-ACFC-2303080DEF63}"/>
+									</Class>
+									<Class name="SourceHandle" field="sourceHandle" version="1" type="{65855A98-AE2F-427F-BFC8-69D45265E312}">
+										<Class name="AZ::Uuid" field="id" value="{D8DAA684-C94C-51F1-9D46-C70029A1BB6B}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+										<Class name="AZ::IO::Path" field="path" value="Users/carlmina/O3DE/Projects/Ballorama/scriptcanvas/LevelSelect.scriptcanvas" type="{88E0A40F-3085-4CAB-8B11-EF5A2659C71A}"/>
+									</Class>
 								</Class>
 							</Class>
 							<Class name="bool" field="IsDependencyReady" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
