@@ -670,21 +670,6 @@
             "Id": "Entity_[1180934129011]",
             "Name": "Global Sky",
             "Components": {
-                "Component_[11231930600558681245]": {
-                    "$type": "AZ::Render::EditorHDRiSkyboxComponent",
-                    "Id": 11231930600558681245,
-                    "Controller": {
-                        "Configuration": {
-                            "CubemapAsset": {
-                                "assetId": {
-                                    "guid": "{215E47FD-D181-5832-B1AB-91673ABF6399}",
-                                    "subId": 1000
-                                },
-                                "assetHint": "lightingpresets/highcontrast/goegap_4k_skyboxcm.exr.streamingimage"
-                            }
-                        }
-                    }
-                },
                 "Component_[11980494120202836095]": {
                     "$type": "SelectionComponent",
                     "Id": 11980494120202836095
@@ -693,31 +678,48 @@
                     "$type": "EditorLockComponent",
                     "Id": 1428633914413949476
                 },
-                "Component_[14936200426671614999]": {
-                    "$type": "AZ::Render::EditorImageBasedLightComponent",
-                    "Id": 14936200426671614999,
-                    "Controller": {
-                        "Configuration": {
-                            "diffuseImageAsset": {
-                                "assetId": {
-                                    "guid": "{3FD09945-D0F2-55C8-B9AF-B2FD421FE3BE}",
-                                    "subId": 3000
-                                },
-                                "assetHint": "lightingpresets/highcontrast/goegap_4k_iblglobalcm_ibldiffuse.exr.streamingimage"
-                            },
-                            "specularImageAsset": {
-                                "assetId": {
-                                    "guid": "{3FD09945-D0F2-55C8-B9AF-B2FD421FE3BE}",
-                                    "subId": 2000
-                                },
-                                "assetHint": "lightingpresets/highcontrast/goegap_4k_iblglobalcm_iblspecular.exr.streamingimage"
-                            }
-                        }
-                    }
-                },
                 "Component_[14994774102579326069]": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 14994774102579326069
+                    "Id": 14994774102579326069,
+                    "DisabledComponents": [
+                        {
+                            "$type": "AZ::Render::EditorImageBasedLightComponent",
+                            "Id": 14936200426671614999,
+                            "Controller": {
+                                "Configuration": {
+                                    "diffuseImageAsset": {
+                                        "assetId": {
+                                            "guid": "{3FD09945-D0F2-55C8-B9AF-B2FD421FE3BE}",
+                                            "subId": 3000
+                                        },
+                                        "assetHint": "lightingpresets/highcontrast/goegap_4k_iblglobalcm_ibldiffuse.exr.streamingimage"
+                                    },
+                                    "specularImageAsset": {
+                                        "assetId": {
+                                            "guid": "{3FD09945-D0F2-55C8-B9AF-B2FD421FE3BE}",
+                                            "subId": 2000
+                                        },
+                                        "assetHint": "lightingpresets/highcontrast/goegap_4k_iblglobalcm_iblspecular.exr.streamingimage"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "$type": "AZ::Render::EditorHDRiSkyboxComponent",
+                            "Id": 11231930600558681245,
+                            "Controller": {
+                                "Configuration": {
+                                    "CubemapAsset": {
+                                        "assetId": {
+                                            "guid": "{215E47FD-D181-5832-B1AB-91673ABF6399}",
+                                            "subId": 1000
+                                        },
+                                        "assetHint": "lightingpresets/highcontrast/goegap_4k_skyboxcm.exr.streamingimage"
+                                    }
+                                }
+                            }
+                        }
+                    ]
                 },
                 "Component_[15417479889044493340]": {
                     "$type": "EditorPendingCompositionComponent",
@@ -2516,9 +2518,9 @@
                     "$type": "EditorLockComponent",
                     "Id": 3261267521913912015
                 },
-                "Component_[4134641329024627814]": {
+                "Component_[4596850193002269650]": {
                     "$type": "EditorMaterialComponent",
-                    "Id": 4134641329024627814,
+                    "Id": 4596850193002269650,
                     "Controller": {
                         "Configuration": {
                             "materials": [
@@ -2527,55 +2529,19 @@
                                         "materialSlotStableId": 2511422688
                                     },
                                     "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2666CCF7-903B-5D02-9CA8-9699A10D9B53}"
+                                            },
+                                            "assetHint": "objects/_primitives/purple.azmaterial"
+                                        },
                                         "PropertyOverrides": {
-                                            "opacity.alphaSource": {
-                                                "$type": "unsigned int",
-                                                "Value": 0
-                                            },
-                                            "opacity.factor": {
-                                                "$type": "float",
-                                                "Value": 0.6200000047683716
-                                            },
-                                            "opacity.mode": {
-                                                "$type": "unsigned int",
-                                                "Value": 3
-                                            },
-                                            "irradiance.color": {
-                                                "$type": "Color",
-                                                "Value": [
-                                                    1.0,
-                                                    1.0,
-                                                    1.0,
-                                                    1.0
-                                                ]
-                                            },
-                                            "opacity.alphaAffectsSpecular": {
-                                                "$type": "float",
-                                                "Value": 0.8399999737739563
-                                            },
-                                            "emissive.color": {
-                                                "$type": "Color",
-                                                "Value": [
-                                                    0.45453575253486633,
-                                                    0.5510185360908508,
-                                                    0.06857404112815857,
-                                                    1.0
-                                                ]
-                                            },
-                                            "emissive.enable": {
-                                                "$type": "bool",
-                                                "Value": true
-                                            },
-                                            "emissive.intensity": {
-                                                "$type": "float",
-                                                "Value": 4.559999942779541
-                                            },
                                             "baseColor.color": {
                                                 "$type": "Color",
                                                 "Value": [
-                                                    0.9183642268180847,
-                                                    0.8781567215919495,
-                                                    0.11429007351398468,
+                                                    0.057770658284425735,
+                                                    0.5535668134689331,
+                                                    0.619043231010437,
                                                     1.0
                                                 ]
                                             }

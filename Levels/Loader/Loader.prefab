@@ -20,7 +20,7 @@
                 "Id": 14126657869720434043,
                 "Child Entity Order": [
                     "Entity_[1176639161715]",
-                    "Entity_[612073537441]"
+                    "Entity_[28227327915656]"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -139,7 +139,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 55.0,
-                            "EditorEntityId": 4380393281925104804
+                            "EditorEntityId": 9255309688425425398
                         }
                     }
                 },
@@ -154,7 +154,19 @@
                 "Component_[18086214374043522055]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 18086214374043522055,
-                    "Parent Entity": "Entity_[1176639161715]"
+                    "Parent Entity": "Entity_[1176639161715]",
+                    "Transform Data": {
+                        "Translate": [
+                            -2.3000001907348633,
+                            -3.9368600845336914,
+                            1.0
+                        ],
+                        "Rotate": [
+                            -2.050307512283325,
+                            1.9552897214889526,
+                            -43.623355865478516
+                        ]
+                    }
                 },
                 "Component_[18387556550380114975]": {
                     "$type": "SelectionComponent",
@@ -243,6 +255,21 @@
             "Id": "Entity_[1180934129011]",
             "Name": "Global Sky",
             "Components": {
+                "Component_[11231930600558681245]": {
+                    "$type": "AZ::Render::EditorHDRiSkyboxComponent",
+                    "Id": 11231930600558681245,
+                    "Controller": {
+                        "Configuration": {
+                            "CubemapAsset": {
+                                "assetId": {
+                                    "guid": "{215E47FD-D181-5832-B1AB-91673ABF6399}",
+                                    "subId": 1000
+                                },
+                                "assetHint": "lightingpresets/highcontrast/goegap_4k_skyboxcm.exr.streamingimage"
+                            }
+                        }
+                    }
+                },
                 "Component_[11980494120202836095]": {
                     "$type": "SelectionComponent",
                     "Id": 11980494120202836095
@@ -251,48 +278,31 @@
                     "$type": "EditorLockComponent",
                     "Id": 1428633914413949476
                 },
-                "Component_[14994774102579326069]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 14994774102579326069,
-                    "DisabledComponents": [
-                        {
-                            "$type": "AZ::Render::EditorImageBasedLightComponent",
-                            "Id": 14936200426671614999,
-                            "Controller": {
-                                "Configuration": {
-                                    "diffuseImageAsset": {
-                                        "assetId": {
-                                            "guid": "{3FD09945-D0F2-55C8-B9AF-B2FD421FE3BE}",
-                                            "subId": 3000
-                                        },
-                                        "assetHint": "lightingpresets/highcontrast/goegap_4k_iblglobalcm_ibldiffuse.exr.streamingimage"
-                                    },
-                                    "specularImageAsset": {
-                                        "assetId": {
-                                            "guid": "{3FD09945-D0F2-55C8-B9AF-B2FD421FE3BE}",
-                                            "subId": 2000
-                                        },
-                                        "assetHint": "lightingpresets/highcontrast/goegap_4k_iblglobalcm_iblspecular.exr.streamingimage"
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "$type": "AZ::Render::EditorHDRiSkyboxComponent",
-                            "Id": 11231930600558681245,
-                            "Controller": {
-                                "Configuration": {
-                                    "CubemapAsset": {
-                                        "assetId": {
-                                            "guid": "{215E47FD-D181-5832-B1AB-91673ABF6399}",
-                                            "subId": 1000
-                                        },
-                                        "assetHint": "lightingpresets/highcontrast/goegap_4k_skyboxcm.exr.streamingimage"
-                                    }
-                                }
+                "Component_[14936200426671614999]": {
+                    "$type": "AZ::Render::EditorImageBasedLightComponent",
+                    "Id": 14936200426671614999,
+                    "Controller": {
+                        "Configuration": {
+                            "diffuseImageAsset": {
+                                "assetId": {
+                                    "guid": "{3FD09945-D0F2-55C8-B9AF-B2FD421FE3BE}",
+                                    "subId": 3000
+                                },
+                                "assetHint": "lightingpresets/highcontrast/goegap_4k_iblglobalcm_ibldiffuse.exr.streamingimage"
+                            },
+                            "specularImageAsset": {
+                                "assetId": {
+                                    "guid": "{3FD09945-D0F2-55C8-B9AF-B2FD421FE3BE}",
+                                    "subId": 2000
+                                },
+                                "assetHint": "lightingpresets/highcontrast/goegap_4k_iblglobalcm_iblspecular.exr.streamingimage"
                             }
                         }
-                    ]
+                    }
+                },
+                "Component_[14994774102579326069]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14994774102579326069
                 },
                 "Component_[15417479889044493340]": {
                     "$type": "EditorPendingCompositionComponent",
@@ -325,96 +335,72 @@
                 }
             }
         },
-        "Entity_[612073537441]": {
-            "Id": "Entity_[612073537441]",
-            "Name": "MenuUI",
+        "Entity_[28227327915656]": {
+            "Id": "Entity_[28227327915656]",
+            "Name": "LevelLoader",
             "Components": {
-                "Component_[10025647752753621011]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 10025647752753621011
-                },
-                "Component_[10468078325818822371]": {
-                    "$type": "SelectionComponent",
-                    "Id": 10468078325818822371
-                },
-                "Component_[10874052727786049424]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 10874052727786049424
-                },
-                "Component_[12195273882849829038]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 12195273882849829038
-                },
-                "Component_[13354444780163051098]": {
+                "Component_[12364022756983737861]": {
                     "$type": "EditorEntityIconComponent",
-                    "Id": 13354444780163051098
+                    "Id": 12364022756983737861
                 },
-                "Component_[16824066869706199960]": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 16824066869706199960,
-                    "m_template": {
-                        "$type": "InputConfigurationComponent",
-                        "Input Event Bindings": {
-                            "assetId": {
-                                "guid": "{DEA9F7C3-3814-5356-8908-413E09CFE44F}"
-                            },
-                            "assetHint": "assets/menuinput.inputbindings"
+                "Component_[13321450984155426684]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13321450984155426684
+                },
+                "Component_[15181720964300204504]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15181720964300204504
+                },
+                "Component_[16056618940619915924]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16056618940619915924
+                },
+                "Component_[17114681849741826276]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17114681849741826276
+                },
+                "Component_[18378312158379256833]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 18378312158379256833
+                },
+                "Component_[6073042772331608130]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 6073042772331608130,
+                    "m_name": "LevelChange.scriptcanvas",
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "id": "{789F5FBC-56ED-5611-A3D4-8068CFD7DE25}",
+                            "path": "Users/carlmina/O3DE/Projects/Ballorama/scriptcanvas/LevelChange.scriptcanvas"
                         }
+                    },
+                    "sourceHandle": {
+                        "id": "{789F5FBC-56ED-5611-A3D4-8068CFD7DE25}",
+                        "path": "Users/carlmina/O3DE/Projects/Ballorama/scriptcanvas/LevelChange.scriptcanvas"
                     }
                 },
-                "Component_[17539802953518738525]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 17539802953518738525
+                "Component_[6296894645663853940]": {
+                    "$type": "SelectionComponent",
+                    "Id": 6296894645663853940
                 },
-                "Component_[2477595406825289183]": {
+                "Component_[6590540765490230409]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6590540765490230409
+                },
+                "Component_[917352932108905606]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 2477595406825289183,
+                    "Id": 917352932108905606,
                     "Parent Entity": "Entity_[1146574390643]",
                     "Transform Data": {
                         "Translate": [
                             0.0,
-                            0.10000228881835938,
+                            -9.499996185302734,
                             3.999903678894043
                         ]
                     }
                 },
-                "Component_[3328049414050554141]": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 3328049414050554141,
-                    "m_template": {
-                        "$type": "UiCanvasAssetRefComponent",
-                        "CanvasAssetRef": {
-                            "AssetPath": "assets/levelpicker.uicanvas"
-                        },
-                        "IsAutoLoad": true
-                    }
-                },
-                "Component_[4734192247773771534]": {
-                    "$type": "EditorScriptCanvasComponent",
-                    "Id": 4734192247773771534,
-                    "m_name": "CursorInput.scriptcanvas",
-                    "runtimeDataOverrides": {
-                        "source": {
-                            "id": "{B4403AC2-8EEA-5D8D-B003-58074EE4A52C}",
-                            "path": "Users/carlmina/O3DE/Projects/Ballorama/scriptcanvas/CursorInput.scriptcanvas"
-                        }
-                    },
-                    "sourceHandle": {
-                        "id": "{B4403AC2-8EEA-5D8D-B003-58074EE4A52C}",
-                        "path": "Users/carlmina/O3DE/Projects/Ballorama/scriptcanvas/CursorInput.scriptcanvas"
-                    }
-                },
-                "Component_[5090862878244505427]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 5090862878244505427
-                },
-                "Component_[5251026120885746711]": {
+                "Component_[9926804249404155806]": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 5251026120885746711
-                },
-                "Component_[7227202410304977853]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 7227202410304977853
+                    "Id": 9926804249404155806
                 }
             }
         }
