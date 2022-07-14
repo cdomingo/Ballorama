@@ -2622,6 +2622,21 @@
                         ]
                     }
                 },
+                "Component_[9516327738951566965]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 9516327738951566965,
+                    "m_name": "LevelEnd.scriptcanvas",
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "id": "{7228F050-1D2B-5B4D-A2E7-C877A8CB9136}",
+                            "path": "Users/carlmina/O3DE/Projects/Ballorama/scriptcanvas/LevelEnd.scriptcanvas"
+                        }
+                    },
+                    "sourceHandle": {
+                        "id": "{7228F050-1D2B-5B4D-A2E7-C877A8CB9136}",
+                        "path": "Users/carlmina/O3DE/Projects/Ballorama/scriptcanvas/LevelEnd.scriptcanvas"
+                    }
+                },
                 "Component_[9586071147712827620]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 9586071147712827620
@@ -4500,6 +4515,13 @@
                 "Component_[18222670760039396195]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 18222670760039396195
+                },
+                "Component_[1912778300717892712]": {
+                    "$type": "EditorTagComponent",
+                    "Id": 1912778300717892712,
+                    "Tags": [
+                        "Player"
+                    ]
                 },
                 "Component_[2584402712393948270]": {
                     "$type": "EditorEntityIconComponent",
