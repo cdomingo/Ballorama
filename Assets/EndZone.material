@@ -8,7 +8,6 @@
             0.9183642268180847,
             1.0
         ],
-        "clearCoat.enable": true,
         "emissive.color": [
             0.06857404112815857,
             0.5510185360908508,
@@ -19,6 +18,6 @@
         "emissive.intensity": 4.559999942779541,
         "opacity.alphaAffectsSpecular": 0.8399999737739563,
         "opacity.factor": 0.6200000047683716,
-        "opacity.mode": "TintedTransparent"
+        "opacity.mode": "Blended"
     }
 }
