@@ -1,0 +1,7 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "propertyValues": {
+        "opacity.mode": "Blended"
+    }
+}
