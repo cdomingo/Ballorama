@@ -109,7 +109,7 @@
                     "Parent Entity": "Entity_[1146574390643]",
                     "Transform Data": {
                         "Translate": [
-                            -1.253274917602539,
+                            -1.0909643173217773,
                             -3.5895862579345703,
                             0.9441196918487549
                         ],
@@ -413,10 +413,7 @@
                 },
                 "Component_[17495696818315413311]": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 17495696818315413311,
-                    "Child Entity Order": [
-                        ""
-                    ]
+                    "Id": 17495696818315413311
                 },
                 "Component_[18086214374043522055]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -465,21 +462,6 @@
             "Id": "Entity_[1180934129011]",
             "Name": "Global Sky",
             "Components": {
-                "Component_[11231930600558681245]": {
-                    "$type": "AZ::Render::EditorHDRiSkyboxComponent",
-                    "Id": 11231930600558681245,
-                    "Controller": {
-                        "Configuration": {
-                            "CubemapAsset": {
-                                "assetId": {
-                                    "guid": "{215E47FD-D181-5832-B1AB-91673ABF6399}",
-                                    "subId": 1000
-                                },
-                                "assetHint": "lightingpresets/highcontrast/goegap_4k_skyboxcm.exr.streamingimage"
-                            }
-                        }
-                    }
-                },
                 "Component_[11980494120202836095]": {
                     "$type": "SelectionComponent",
                     "Id": 11980494120202836095
@@ -510,6 +492,21 @@
                                             "subId": 2000
                                         },
                                         "assetHint": "lightingpresets/highcontrast/goegap_4k_iblglobalcm_iblspecular.exr.streamingimage"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "$type": "AZ::Render::EditorHDRiSkyboxComponent",
+                            "Id": 11231930600558681245,
+                            "Controller": {
+                                "Configuration": {
+                                    "CubemapAsset": {
+                                        "assetId": {
+                                            "guid": "{215E47FD-D181-5832-B1AB-91673ABF6399}",
+                                            "subId": 1000
+                                        },
+                                        "assetHint": "lightingpresets/highcontrast/goegap_4k_skyboxcm.exr.streamingimage"
                                     }
                                 }
                             }
@@ -1397,32 +1394,7 @@
             "Components": {
                 "Component_[12211016660796209533]": {
                     "$type": "EditorInspectorComponent",
-                    "Id": 12211016660796209533,
-                    "ComponentOrderEntryArray": [
-                        {
-                            "ComponentId": 7416127175483900156
-                        },
-                        {
-                            "ComponentId": 3873493776369345695,
-                            "SortIndex": 1
-                        },
-                        {
-                            "ComponentId": 3837554165328877143,
-                            "SortIndex": 2
-                        },
-                        {
-                            "ComponentId": 3797443932717465202,
-                            "SortIndex": 3
-                        },
-                        {
-                            "ComponentId": 4133188831449154810,
-                            "SortIndex": 4
-                        },
-                        {
-                            "ComponentId": 3693789661888196310,
-                            "SortIndex": 5
-                        }
-                    ]
+                    "Id": 12211016660796209533
                 },
                 "Component_[15049563373555033457]": {
                     "$type": "EditorDisabledCompositionComponent",
