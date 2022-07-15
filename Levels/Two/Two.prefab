@@ -26,7 +26,7 @@
                     "Entity_[1163754259827]",
                     "Entity_[81610347248593]",
                     "Entity_[1176639161715]",
-                    "Instance_[79454273666001]/ContainerEntity",
+                    "Entity_[59917523705759]",
                     "Instance_[80231662746577]/ContainerEntity",
                     "Instance_[80274612419537]/ContainerEntity",
                     "Instance_[80373396667345]/ContainerEntity",
@@ -622,6 +622,186 @@
                             "SortIndex": 6
                         }
                     ]
+                }
+            }
+        },
+        "Entity_[59917523705759]": {
+            "Id": "Entity_[59917523705759]",
+            "Name": "GameUI",
+            "Components": {
+                "Component_[12203424138453108865]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12203424138453108865
+                },
+                "Component_[16186510893618467838]": {
+                    "$type": "SelectionComponent",
+                    "Id": 16186510893618467838
+                },
+                "Component_[16447575710567509047]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16447575710567509047
+                },
+                "Component_[16958431489241503301]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16958431489241503301
+                },
+                "Component_[3603109598964909977]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3603109598964909977
+                },
+                "Component_[58463413636998144]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 58463413636998144,
+                    "Child Entity Order": [
+                        "Entity_[59921818673055]"
+                    ]
+                },
+                "Component_[7334267349982219731]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7334267349982219731
+                },
+                "Component_[8098204942034012637]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8098204942034012637
+                },
+                "Component_[84041821469500453]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 84041821469500453
+                },
+                "Component_[8627823948042783388]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8627823948042783388,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -3.2912464141845703,
+                            10.028406143188477,
+                            7.223989486694336
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[59921818673055]": {
+            "Id": "Entity_[59921818673055]",
+            "Name": "GameUI",
+            "Components": {
+                "Component_[13405801905884305821]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13405801905884305821
+                },
+                "Component_[15578236451209532584]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15578236451209532584,
+                    "Parent Entity": "Entity_[59917523705759]"
+                },
+                "Component_[16565543285602605610]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16565543285602605610
+                },
+                "Component_[3259192924676914969]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 3259192924676914969,
+                    "m_name": "GameUI.scriptcanvas",
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "id": "{DC7C911F-7C06-586F-8F7D-469C5477654D}",
+                            "path": "Users/carlmina/O3DE/Projects/Ballorama/scriptcanvas/GameUI.scriptcanvas"
+                        },
+                        "variables": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "double",
+                                    "value": 30.0
+                                },
+                                "VariableId": {
+                                    "m_id": "{4E1C196F-3ACC-4B30-90F5-BB1E86F90F62}"
+                                },
+                                "VariableName": "MaxTime",
+                                "InitialValueSource": 1
+                            }
+                        ],
+                        "overrides": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "double",
+                                    "value": 50.0
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{4E1C196F-3ACC-4B30-90F5-BB1E86F90F62}"
+                                },
+                                "VariableName": "MaxTime",
+                                "InitialValueSource": 1
+                            }
+                        ]
+                    },
+                    "sourceHandle": {
+                        "id": "{DC7C911F-7C06-586F-8F7D-469C5477654D}",
+                        "path": "Users/carlmina/O3DE/Projects/Ballorama/scriptcanvas/GameUI.scriptcanvas"
+                    }
+                },
+                "Component_[4149349016040082350]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4149349016040082350
+                },
+                "Component_[4572202582508874949]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4572202582508874949,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 15578236451209532584
+                        },
+                        {
+                            "ComponentId": 9488274752435500817,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 3259192924676914969,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[5054667797287652751]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5054667797287652751
+                },
+                "Component_[5765762727548820808]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5765762727548820808
+                },
+                "Component_[6155753132785123463]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6155753132785123463
+                },
+                "Component_[8197618035477395937]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8197618035477395937
+                },
+                "Component_[9488274752435500817]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 9488274752435500817,
+                    "m_template": {
+                        "$type": "UiCanvasAssetRefComponent",
+                        "CanvasAssetRef": {
+                            "AssetPath": "assets/gameui.uicanvas"
+                        },
+                        "IsAutoLoad": true
+                    }
+                },
+                "Component_[9546278196468583329]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9546278196468583329
                 }
             }
         },
@@ -3093,31 +3273,6 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[16137327860227973029]/Parent Entity",
                     "value": "../Entity_[1146574390643]"
-                }
-            ]
-        },
-        "Instance_[79454273666001]": {
-            "Source": "Prefabs/GameUI.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[8627823948042783388]/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[8627823948042783388]/Transform Data/Translate/0",
-                    "value": -3.2912464141845703
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[8627823948042783388]/Transform Data/Translate/1",
-                    "value": 10.028406143188477
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[8627823948042783388]/Transform Data/Translate/2",
-                    "value": 7.223989486694336
                 }
             ]
         },
