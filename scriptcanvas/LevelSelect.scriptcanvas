@@ -5,7 +5,7 @@
     "ClassData": {
         "m_scriptCanvas": {
             "Id": {
-                "id": 16385603638087
+                "id": 57365669947707
             },
             "Name": "Script Canvas Graph",
             "Components": {
@@ -16,7 +16,7 @@
                         "m_nodes": [
                             {
                                 "Id": {
-                                    "id": 16389898605383
+                                    "id": 57369964915003
                                 },
                                 "Name": "EBusEventHandler",
                                 "Components": {
@@ -176,7 +176,7 @@
                             },
                             {
                                 "Id": {
-                                    "id": 105725218362183
+                                    "id": 57374259882299
                                 },
                                 "Name": "SendScriptEvent",
                                 "Components": {
@@ -239,7 +239,6 @@
                                         ],
                                         "Datums": [
                                             {
-                                                "isOverloadedStorage": false,
                                                 "scriptCanvasType": {
                                                     "m_type": 3
                                                 },
@@ -262,7 +261,6 @@
                                             "assetId": {
                                                 "guid": "{C687D6A7-AC3C-56BE-98CB-8A9D5C8DB44D}"
                                             },
-                                            "loadBehavior": "QueueLoad",
                                             "assetHint": "assets/levelmanager.scriptevents"
                                         },
                                         "m_busId": {
@@ -278,7 +276,7 @@
                         "m_connections": [
                             {
                                 "Id": {
-                                    "id": 106476837638983
+                                    "id": 57378554849595
                                 },
                                 "Name": "srcEndpoint=(UiButtonNotificationBus Handler: ExecutionSlot:OnButtonClick), destEndpoint=(Send Script Event: In)",
                                 "Components": {
@@ -287,7 +285,7 @@
                                         "Id": 1285159184012365480,
                                         "sourceEndpoint": {
                                             "nodeId": {
-                                                "id": 16389898605383
+                                                "id": 57369964915003
                                             },
                                             "slotId": {
                                                 "m_id": "{779FD89C-57E7-417F-A1ED-879650C5E86A}"
@@ -295,7 +293,7 @@
                                         },
                                         "targetEndpoint": {
                                             "nodeId": {
-                                                "id": 105725218362183
+                                                "id": 57374259882299
                                             },
                                             "slotId": {
                                                 "m_id": "{1F988352-B621-4170-BDAD-6204249AADDD}"
@@ -308,13 +306,7 @@
                         "m_scriptEventAssets": [
                             [
                                 {
-                                    "id": 16394193572679
-                                },
-                                {}
-                            ],
-                            [
-                                {
-                                    "id": 105725218362183
+                                    "id": 57374259882299
                                 },
                                 {}
                             ]
@@ -330,7 +322,7 @@
                     "GraphCanvasData": [
                         {
                             "Key": {
-                                "id": 16385603638087
+                                "id": 57365669947707
                             },
                             "Value": {
                                 "ComponentData": {
@@ -338,8 +330,8 @@
                                         "$type": "SceneComponentSaveData",
                                         "ViewParams": {
                                             "Scale": 1.2445960572520482,
-                                            "AnchorX": -1239.7596435546875,
-                                            "AnchorY": -476.4598083496094
+                                            "AnchorX": -1178.6956787109375,
+                                            "AnchorY": -517.4369506835938
                                         }
                                     }
                                 }
@@ -347,7 +339,7 @@
                         },
                         {
                             "Key": {
-                                "id": 16389898605383
+                                "id": 57369964915003
                             },
                             "Value": {
                                 "ComponentData": {
@@ -381,7 +373,7 @@
                         },
                         {
                             "Key": {
-                                "id": 105725218362183
+                                "id": 57374259882299
                             },
                             "Value": {
                                 "ComponentData": {
@@ -395,7 +387,7 @@
                                     "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
                                         "$type": "GeometrySaveData",
                                         "Position": [
-                                            -380.0,
+                                            -360.0,
                                             100.0
                                         ]
                                     },
@@ -445,7 +437,8 @@
                                     "VariableId": {
                                         "m_id": "{26D29EF5-2D51-4540-8E80-88CFFE7EDABE}"
                                     },
-                                    "VariableName": "LevelOne"
+                                    "VariableName": "Level",
+                                    "InitialValueSource": 1
                                 }
                             }
                         ]

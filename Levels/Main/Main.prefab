@@ -26,7 +26,8 @@
                     "Entity_[81153720181468]",
                     "Entity_[61480948882274]",
                     "Entity_[103286871683210]",
-                    "Entity_[7817447720495]"
+                    "Entity_[7817447720495]",
+                    "Instance_[51142262335803]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -1595,6 +1596,33 @@
                     }
                 }
             }
+        }
+    },
+    "Instances": {
+        "Instance_[51142262335803]": {
+            "Source": "Prefabs/KV.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2538785798991786734]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2538785798991786734]/Transform Data/Translate/0",
+                    "value": -0.9981814622879028
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2538785798991786734]/Transform Data/Translate/1",
+                    "value": -0.11344718933105469
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2538785798991786734]/Transform Data/Translate/2",
+                    "value": -3.298224449157715
+                }
+            ]
         }
     }
 }
