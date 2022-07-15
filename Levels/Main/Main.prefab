@@ -670,6 +670,21 @@
             "Id": "Entity_[1180934129011]",
             "Name": "Global Sky",
             "Components": {
+                "Component_[11231930600558681245]": {
+                    "$type": "AZ::Render::EditorHDRiSkyboxComponent",
+                    "Id": 11231930600558681245,
+                    "Controller": {
+                        "Configuration": {
+                            "CubemapAsset": {
+                                "assetId": {
+                                    "guid": "{215E47FD-D181-5832-B1AB-91673ABF6399}",
+                                    "subId": 1000
+                                },
+                                "assetHint": "lightingpresets/highcontrast/goegap_4k_skyboxcm.exr.streamingimage"
+                            }
+                        }
+                    }
+                },
                 "Component_[11980494120202836095]": {
                     "$type": "SelectionComponent",
                     "Id": 11980494120202836095
@@ -700,21 +715,6 @@
                                             "subId": 2000
                                         },
                                         "assetHint": "lightingpresets/highcontrast/goegap_4k_iblglobalcm_iblspecular.exr.streamingimage"
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "$type": "AZ::Render::EditorHDRiSkyboxComponent",
-                            "Id": 11231930600558681245,
-                            "Controller": {
-                                "Configuration": {
-                                    "CubemapAsset": {
-                                        "assetId": {
-                                            "guid": "{215E47FD-D181-5832-B1AB-91673ABF6399}",
-                                            "subId": 1000
-                                        },
-                                        "assetHint": "lightingpresets/highcontrast/goegap_4k_skyboxcm.exr.streamingimage"
                                     }
                                 }
                             }
@@ -4571,9 +4571,9 @@
                     "Parent Entity": "Entity_[1146574390643]",
                     "Transform Data": {
                         "Translate": [
-                            -1.2946114540100098,
-                            26.350933074951172,
-                            1.560133695602417
+                            -1.3694274425506592,
+                            -7.31300163269043,
+                            1.575784683227539
                         ]
                     }
                 },
